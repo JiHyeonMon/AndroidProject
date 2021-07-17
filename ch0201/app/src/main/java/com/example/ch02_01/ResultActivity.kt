@@ -21,7 +21,8 @@ class ResultActivity : AppCompatActivity() {
             bmi >= 35 -> "고도비만"
             bmi >= 30 -> "증정도비만"
             bmi >= 25 -> "경도비만"
-            bmi >= 23 -> "정상체중"
+            bmi >= 23 -> "과체중"
+            bmi >= 18.5 -> "정상체중"
             else -> "저체중"
         }
 
