@@ -1,9 +1,8 @@
 # 비밀 다이어리
 
-<img src = "https://user-images.githubusercontent.com/50662636/126094215-fa5cfa2a-9e72-4e79-9928-c2922319afaf.png" width = "300" height = "500"/>
-<img src = "https://user-images.githubusercontent.com/50662636/126094224-baf577fb-204c-487d-b77f-6040cce2cb05.png" width = "300" height = "500"/>
-<img src = "https://user-images.githubusercontent.com/50662636/126094256-f2b558f9-2763-42a9-a7c2-831c0bd42a33.png" width = "300" height = "500"/>
-<img src = "https://user-images.githubusercontent.com/50662636/126094266-277ea069-ab92-4556-bf74-60b444d42523.png)" width = "300" height = "500"/>
+<img src = "https://user-images.githubusercontent.com/50662636/126094215-fa5cfa2a-9e72-4e79-9928-c2922319afaf.png" width = "300" height = "500"/><img src = "https://user-images.githubusercontent.com/50662636/126094224-baf577fb-204c-487d-b77f-6040cce2cb05.png" width = "300" height = "500"/>
+
+<img src = "https://user-images.githubusercontent.com/50662636/126094256-f2b558f9-2763-42a9-a7c2-831c0bd42a33.png" width = "300" height = "500"/><img src = "https://user-images.githubusercontent.com/50662636/126094266-277ea069-ab92-4556-bf74-60b444d42523.png" width = "300" height = "500"/>
 
 다이어리 처럼 UI 꾸며보기
 
