@@ -74,9 +74,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun numberButtonClicked(number: String) {
 
-        if (isOperator) {
-            expressionTextView.append("  ")
-        }
+//        if (isOperator) {
+//            expressionTextView.append(" ")
+//        }
         isOperator = false
 
         val expressionText = expressionTextView.text.split(" ")
@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
                 return
             }
 
-            else -> expressionTextView.append(" $operator")
+            else -> expressionTextView.append(" $operator ")
 
         }
 
@@ -138,7 +138,7 @@ class MainActivity : AppCompatActivity() {
         val expressionTexts = expressionTextView.text.split(" ")
         if (hasOperator.not() || expressionTexts.size != 3) {
             return ""
-        } else if (expressionTexts[0].isNumber().not() || expressionTexts[1].isNumber().not()) {
+        } else if (expressionTexts[0].isNumber().not() || expressionTexts[2].isNumber().not()) {
             return ""
         }
 
@@ -147,18 +147,17 @@ class MainActivity : AppCompatActivity() {
         val op = expressionTexts[1]
 
         return when (op) {
-            "+" -> "$exp1+$exp2"
-            "-" -> "$exp1-$exp2"
-            "*" -> "$exp1*$exp2"
-            "/" -> "$exp1/$exp2"
-            "%" -> "$exp1%$exp2"
+            "+" -> (exp1+exp2).toString()
+            "-" -> (exp1-exp2).toString()
+            "*" -> (exp1*exp2).toString()
+            "/" -> (exp1/exp2).toString()
+            "%" -> (exp1%exp2).toString()
             else -> ""
         }
     }
 
     fun resultButtonClicked(v: View) {
         val expressionTexts = expressionTextView.text.split(" ")
-        Log.e("ee", expressionTexts.toString())
 
         if (expressionTextView.text.isEmpty() || expressionTexts.size == 1) {
             return
@@ -169,7 +168,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-        if (expressionTexts[0].isNumber().not() || expressionTexts[1].isNumber().not()) {
+        if (expressionTexts[0].isNumber().not() || expressionTexts[2].isNumber().not()) {
             Toast.makeText(this, "오류가 발생했습니다. ", Toast.LENGTH_SHORT).show()
             return
         }
@@ -214,7 +213,7 @@ class MainActivity : AppCompatActivity() {
                     // LayoutInfater를 이용하여 View를 하나 만들어보자.
                     val historyView = LayoutInflater.from(this).inflate(R.layout.history_row, null, false)
                     historyView.findViewById<TextView>(R.id.expressionTextView).text = it.expression
-                    historyView.findViewById<TextView>(R.id.resultTextView).text = "= $it.result"
+                    historyView.findViewById<TextView>(R.id.resultTextView).text = "= " + it.result
 
                     historyLinearLayout.addView(historyView)
                 }
