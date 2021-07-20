@@ -1,9 +1,6 @@
 # 계산기
 
-<img src = "https://user-images.githubusercontent.com/50662636/126094215-fa5cfa2a-9e72-4e79-9928-c2922319afaf.png" width = "300" height = "500"/>
-<img src = "https://user-images.githubusercontent.com/50662636/126094224-baf577fb-204c-487d-b77f-6040cce2cb05.png" width = "300" height = "500"/>
-<img src = "https://user-images.githubusercontent.com/50662636/126094256-f2b558f9-2763-42a9-a7c2-831c0bd42a33.png" width = "300" height = "500"/>
-<img src = "https://user-images.githubusercontent.com/50662636/126094266-277ea069-ab92-4556-bf74-60b444d42523.png)" width = "300" height = "500"/>
+<img src = "https://user-images.githubusercontent.com/50662636/126312983-b6389f6e-053c-4ed3-ad32-595722ea12b1.png" width = "300" height = "500"/><img src = "https://user-images.githubusercontent.com/50662636/126313017-6eb4e1ca-3bca-43b7-9544-2d9ea0c9155b.png" width = "300" height = "500"/>
 
 - ### TableLayout
 
