@@ -1,4 +1,4 @@
-package com.example.ch0203
+package com.example.ch0204
 
 import org.junit.Test
 

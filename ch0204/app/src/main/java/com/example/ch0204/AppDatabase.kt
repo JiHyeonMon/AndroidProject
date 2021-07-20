@@ -1,9 +1,9 @@
-package com.example.ch0203
+package com.example.ch0204
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.ch0203.dao.HistoryDao
-import com.example.ch0203.model.HistoryModel
+import com.example.ch0204.dao.HistoryDao
+import com.example.ch0204.model.HistoryModel
 
 @Database(entities = [HistoryModel::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {

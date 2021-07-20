@@ -1,20 +1,19 @@
-package com.example.ch0203
+package com.example.ch0204
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Spannable
 import android.text.SpannableStringBuilder
 import android.text.style.ForegroundColorSpan
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
-import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.room.Room
-import com.example.ch0203.model.HistoryModel
+import com.example.ch0204.model.HistoryModel
 import java.lang.NumberFormatException
 
 class MainActivity : AppCompatActivity() {
@@ -159,6 +158,7 @@ class MainActivity : AppCompatActivity() {
 
     fun resultButtonClicked(v: View) {
         val expressionTexts = expressionTextView.text.split(" ")
+        Log.e("ee", expressionTexts.toString())
 
         if (expressionTextView.text.isEmpty() || expressionTexts.size == 1) {
             return

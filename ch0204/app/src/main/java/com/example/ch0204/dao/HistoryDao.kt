@@ -1,9 +1,9 @@
-package com.example.ch0203.dao
+package com.example.ch0204.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.ch0203.model.HistoryModel
+import com.example.ch0204.model.HistoryModel
 
 @Dao
 interface HistoryDao{
